@@ -1,6 +1,6 @@
 php.iniについて
 eコミを調べてみたらPHPのタグが全てショートタグになっていることがわかりました。
-php.ini239行目にshort_open_tagがあります。
+php.iniの239行目にshort_open_tagがあります。
 この部分が初期値は
 short_open_tag = Off
 になっているのでこの部分を
