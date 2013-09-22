@@ -1,0 +1,160 @@
+/* Copyright (c) 2009 National Research Institute for Earth Science and
+ * Disaster Prevention (NIED).
+ * This code is licensed under the GPL 3.0 license, availible at the root
+ * application directory.
+ */
+@CHARSET "UTF-8";
+
+.filebox_toolbar {
+	width: 640px;
+	height: 48px;
+	font-size: 0.8em;
+	color: steelblue;
+	background-image: url("image/filebox_toolbar.png");
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+
+.filebox_view {
+	font-size: 0.8em;
+	width: 640px;
+	height: 360px;
+	overflow: auto;
+}
+
+.filebox_page {
+	overflow-x: hidden;	/*IE only*/
+}
+
+.filebox_folderproperty {
+	color: steelblue;
+}
+
+.filebox_draggable {
+	cursor: pointer;
+}
+
+.filebox_folder {
+	cursor: pointer;
+}
+
+.filebox_folder_selected {
+	background-image: url("image/filebox_folder_focus.png");
+}
+
+.filebox_folder_highright {
+	background-color: #ffffcf;
+}
+
+.filebox_folder_hover {
+	background-color: #cfafff;
+}
+
+.filebox_trash {
+	cursor: pointer;
+}
+
+.filebox_sort {
+	cursor: pointer;
+}
+
+
+.filebox_thumbbox {
+	width: 95%;
+	padding: 4px;
+	margin: 6px;
+	font-size: 0.9em;
+	vertical-align: top;
+	text-align: center;
+	border: solid 1px silver;
+}
+
+.filebox_thumbbox .filebox_title {
+	font-size: 1.2em;
+	padding: 4px;
+	text-align: left;
+	float: left;
+	font-weight: bold;
+}
+
+.filebox_thumbbox .filebox_property {
+	padding: 4px;
+	float: right;
+}
+
+.filebox_thumbbox .filebox_thumbnail {
+	width: 100px;
+	height: 80px;
+	clear: both;
+	float: left;
+}
+
+.filebox_thumbbox .filebox_summary {
+	padding: 4px;
+	height: 80px;
+	width: 192px;
+	border: silver 1px solid;
+	font-size: 0.9em;
+	text-align: left;
+	overflow: auto;
+	float: left;
+}
+
+.filebox_thumbbox .filebox_misc {
+	width: 120px;
+	margin-right: 8px;
+	margin-top: 8px;
+	text-align: right;
+	float: right;
+}
+
+.filebox_listbox {
+	width: 95%;
+	border: none 1px silver;
+	border-style: none none dashed none;
+}
+
+.filebox_listbox .filebox_title {
+	text-align: left;
+	float: left;
+	width: 236px;
+}
+
+.filebox_listbox .filebox_owner {
+	text-align: left;
+	float: left;
+	width: 80px;
+}
+
+.filebox_listbox .filebox_size {
+	text-align: left;
+	float: left;
+	width: 52px;
+}
+
+.filebox_listbox .filebox_date {
+	text-align: left;
+	float: left;
+	width: 64px;
+}
+
+
+
+
+#upload, #category {
+	width: 640px;
+	border: solid 2px #eaeaff;
+	background-color: #fcfcfc;
+	padding: 8px;
+	margin: 5px 3px;
+	font-size: 0.8em;
+	display: none;
+}
+.upload_input {
+	border: solid 1px #cccccc;
+}
+.upload_submit {
+	border: solid 1px #cccccc;
+	background-color: #dfdfff;
+	font-size: 0.8em;
+}

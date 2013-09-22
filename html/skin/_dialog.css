@@ -1,0 +1,242 @@
+/*
+ * Copyright (c) 2009 National Research Institute for Earth Science and
+ * Disaster Prevention (NIED).
+ * This code is licensed under the GPL 3.0 license, availible at the root
+ * application directory.
+ */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #ffffff;
+	color: #333333;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.dialog_wrap {
+	padding: 5px;
+}
+
+.dialog_title {
+	padding: 3px 3px 8px 28px;
+	background-image: url(/image/icons/00_000.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	font-size: 1.2em;
+	color: #666666;
+	border-bottom: solid 2px #5bace5;
+}
+
+.dialog_message {
+	margin: 8px 8px 4px 8px;
+	font-size: 1.0em;
+}
+
+.dialog_content {
+	font-size: 1.0em;
+}
+
+/******* インプット系 *******/
+.input_wrap {
+	text-align: center;
+}
+.input {
+	width: 98%;
+	text-align: left;
+	margin: 2 auto;
+	border: solid 1px #efefef;
+}
+.input_title {
+	font-size: 0.9em;
+	font-weight: normal;
+	background-color: #efefef;
+	padding: 3px;
+}
+.input_body {
+	font-size: 0.9em;
+	font-weight: normal;
+	background-color: #ffffff;
+	padding: 3px;
+}
+.input_form {
+	margin: 0;
+}
+.input_text, .input_file, .input_num, .input_datetime {
+	border: solid 1px #cccccc;
+	padding: 2px;
+}
+.input_head {
+	padding: 4px 8px;;
+}
+.input_num {
+	ime-mode: inactive;
+	text-align: right;
+}
+.input_datetime {
+	ime-mode: inactive;
+	text-align: right;
+}
+.input_submit {
+	border: solid 1px #cccccc;
+	background-color: #dbf6e7;
+	padding: 4px;
+	margin: 3px;
+	font-weight: bold;
+	font-size: 14px;
+	width: 10em;
+}
+.input_cancel {
+	border: solid 1px #cccccc;
+	background-color: #ffffff;
+	padding: 4px;
+	margin: 3px;
+	font-weight: bold;
+	font-size: 14px;
+	width: 8em;
+}
+.input_wrap select {
+	border: solid 1px #cccccc;
+}
+.input_submit_wrap {
+	background-color: #f0f0f0;
+	text-align: center;
+	width: 100%;
+}
+.input_error {
+	font-size: 0.9em;
+	font-weight: normal;
+	background-color: #e44141;
+	color: #ffffff;
+	padding: 2px;
+}
+.edit_menu_title {
+	display: block;
+	background-image: url(/skin/default/image/arw.png);
+	background-repeat: no-repeat;
+	background-position: 3px 8px;
+	padding-left: 18px;
+	padding-top: 4px;
+	border-top: dashed 1px #dfdfdf;
+}
+.edit_menu_title:hover {
+	background-color: #eaffe8;
+}
+.edit_menu_title span {
+	display: block;
+	padding: 1px 2px 1px 3px;
+	font-weight: bold;
+}
+.edit_menu_sub {
+	display: block;
+	background-image: url(/skin/default/image/arw.png);
+	background-repeat: no-repeat;
+	background-position: 13px 8px;
+	padding-left: 28px;
+	padding-top: 4px;
+	border-top: dashed 1px #dfdfdf;
+}
+.edit_menu_sub:hover {
+	background-color: #eaffe8;
+}
+.edit_menu_sub span {
+	display: block;
+	padding: 1px 2px 1px 4px;
+}
+
+.edit_button {
+	padding: 2px;
+	display: block;
+	border: solid 1px #cccccc;
+	background-color: #dbf6e7;
+	text-align: center;
+}
+.edit_delbtn {
+	padding: 2px;
+	display: block;
+	border: solid 1px #cccccc;
+	background-color: #ffefef;
+	text-align: center;
+}
+
+.edit_table_wrap {
+	width: 100%;
+	text-align: center;
+}
+.edit_table {
+	width: 100%;
+	text-align: left;
+	border: 1px #e0e0e0 solid;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.edit_table th {
+	padding: 5px;
+	border: #e0e0e0 solid;
+	border-width: 0 0 1px 1px;
+	background: #F5F5F5;
+	font-weight: bold;
+	line-height: 120%;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 0.9em;
+}
+.edit_table tr.tr_2ndline {
+	background-color: #f9fcff;
+}
+.edit_table td {
+	padding: 5px;
+	border: 1px #E3E3E3 solid;
+	border-width: 0 0 1px 1px;
+	text-align: left;
+	font-size: 0.8em;
+}
+.edit_table td.td_nowrap {
+	white-space: nowrap;
+}
+
+/******* RSS *******/
+#rss_add_input {
+	cursor: pointer;
+	padding: 2px 2px 2px 22px;
+	background-image: url(/fr.gif);
+	background-repeat: no-repeat;
+	background-position: 2px center;
+	font-size: 0.8em;
+	color: #6c9cc5;
+	width: 14em;
+	background-color: #eeeeee;
+}
+/******* schedule *******/
+
+.schedule_d_subject {
+	font-size 1.2em;
+	padding: 4px;
+	border: solid 1px #a2bfe4;
+	background-color: #dbe8f9;
+	margin: 3px;
+}
+.schedule_d_date {
+	padding: 2px 2px 2px 12px;
+	text-align: left;
+	font-size: 0.9em;
+	color: #666666;
+}
+.schedule_d_body {
+	padding: 24px;
+	font-size: 0.9em;
+}

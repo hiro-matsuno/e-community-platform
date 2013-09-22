@@ -1,0 +1,8 @@
+このパーツに含まれる DnD_nosign.jar は電子署名を行わなければパーツ内で
+利用することができません。
+
+電子署名を行なうためには以下の様にして下さい
+
+$ cp DnD_nosign.jar DnD.jar
+$ keytool -genkey -alias dnd -keystore sappkey
+$ jarsigner -keystore sappkey DnD.jar dnd

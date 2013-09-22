@@ -1,0 +1,86 @@
+.input_wrap {
+	text-align: center;
+}
+.input {
+	width: 98%;
+	text-align: left;
+	margin: 2px auto;
+	border: solid 1px #efefef;
+}
+.input_title {
+	font-size: 0.9em;
+	font-weight: normal;
+	background-color: #efefef;
+	padding: 3px;
+}
+.input_body {
+	font-size: 0.9em;
+	font-weight: normal;
+	background-color: #ffffff;
+	padding: 3px;
+}
+.input_form {
+	margin: 0;
+}
+.input_text, .input_file, .input_num, .input_datetime {
+	border: solid 1px #cccccc;
+	padding: 2px;
+}
+.input_num {
+	ime-mode: inactive;
+	text-align: right;
+}
+.input_datetime {
+	ime-mode: inactive;
+	text-align: right;
+}
+.input_button {
+	border: solid 1px #cccccc;
+	background-color: #dbf1f6;
+	padding: 2px 3px;
+	margin: 3px;
+	font-size: 12px;
+}
+.delbtn {
+	border: solid 1px #cccccc;
+	background-color: #ffffff;
+	color: #ff6666;
+	padding: 1px 3px;
+	margin: 1px;
+	font-size: 12px;
+}
+
+.input_submit {
+	border: solid 1px #cccccc;
+	background-color: #dbf6e7;
+	padding: 4px 20px;
+	margin: 3px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.input_cancel {
+	border: solid 1px #cccccc;
+	background-color: #ffffff;
+	padding: 4px 10px;;
+	margin: 3px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.input_head {
+	padding: 4px 8px;;
+}
+.input_wrap select {
+	border: solid 1px #cccccc;
+}
+.input_submit_wrap {
+	background-color: #f0f0f0;
+	text-align: center;
+	width: 100%;
+}
+.input_error {
+	font-size: 0.9em;
+	font-weight: normal;
+	background-color: #e44141;
+	color: #ffffff;
+	padding: 2px;
+}

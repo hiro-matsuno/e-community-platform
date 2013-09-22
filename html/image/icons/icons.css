@@ -1,0 +1,154 @@
+/* Copyright (c) 2009 National Research Institute for Earth Science and
+ * Disaster Prevention (NIED).
+ * This code is licensed under the GPL 3.0 license, availible at the root
+ * application directory.
+ */
+@CHARSET "UTF-8";
+
+/** eコミのアイコンスタイル 基本的に aタグのclassで指定する */
+
+/*---------------- 各種設定メニュー用 ----------------*/
+.setting_menu .icon {
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 0px 0px 0px 26px;
+	line-height: 26px;
+	display: inline-block;
+}
+.icon.reload {
+	background-image: url(001_39.png);
+}
+.icon.profile {
+	background-image: url(001_54.png);
+}
+.icon.mbox {
+	background-image: url(001_13.png);
+}
+.icon.mail_setting {
+	background-image: url(001_12.png);
+}
+.icon.log_setting {
+	background-image: url(001_35.png);
+}
+.icon.passwd_change {
+	background-image: url(001_41.png);
+}
+.icon.mail_change {
+	background-image: url(001_12.png);
+}
+.icon.favorite {
+	background-image: url(001_15.png);
+}
+.icon.friend {
+	background-image: url(001_57.png);
+}
+.icon.filebox {
+	background-image: url(001_53.png);
+}
+.icon.site_select {
+	background-image: url(001_20.png);
+}
+.icon.group_profile {
+	background-image: url(001_57.png);
+}
+.icon.delete_gpage {
+	background-image: url(001_05.png);
+}
+.icon.mypage_profile {
+	background-image: url(001_55.png);
+}
+.icon.delete_mypage {
+	background-image: url(001_05.png);
+}
+.icon.add_block {
+	background-image: url(001_01.png);
+}
+.icon.skin {
+	background-image: url(001_59.png);
+}
+.icon.mail_noti {
+	background-image: url(001_12.png);
+}
+.icon.mail_noti_list {
+	background-image: url(001_12.png);
+}
+.icon.system_default {
+	background-image: url(001_58.png);
+}
+
+/*---------------- 管理ページメニュー ----------------*/
+.edit_menu_title.icon {
+	background-repeat: no-repeat;
+	background-position: 2px center;
+	padding: 0px 0px 0px 26px;
+	line-height: 26px;
+}
+.edit_menu_title.icon.portal {
+	background-image: url(001_20.png);
+	background-color: white;
+}
+
+.edit_menu_sub.icon {
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	padding: 0px 0px 0px 26px;
+	line-height: 26px;
+}
+.edit_menu_sub.icon.listuser {
+	background-image: url(001_55.png);
+}
+.edit_menu_sub.icon.edituser {
+	background-image: url(001_55.png);
+}
+
+.edit_menu_sub.icon.addtogroup {
+	background-image: url(001_57.png);
+}
+.edit_menu_sub.icon.listgroup {
+	background-image: url(001_57.png);
+}
+
+.edit_menu_sub.icon.agreement {
+	background-image: url(001_11.png);
+}
+.edit_menu_sub.icon.portal {
+	background-image: url(001_20.png);
+}
+.edit_menu_sub.icon.regist_setting {
+	background-image: url(001_55.png);
+}
+.edit_menu_sub.icon.keyword {
+	background-image: url(001_45.png);
+}
+.edit_menu_sub.icon.layout {
+	background-image: url(001_08.png);
+}
+.edit_menu_sub.icon.filebox {
+	background-image: url(001_53.png);
+}
+
+.edit_menu_sub.icon.skin_list {
+	background-image: url(001_57.png);
+}
+.edit_menu_sub.icon.css_input {
+	background-image: url(001_45.png);
+}
+.edit_menu_sub.icon.parts {
+	background-image: url(001_01.png);
+}
+
+.edit_menu_sub.icon.menubar_select {
+	background-image: url(001_36.png);
+}
+.edit_menu_sub.icon.menubar_entry {
+	background-image: url(001_35.png);
+}
+.edit_menu_sub.icon.menubar_edit {
+	background-image: url(001_34.png);
+}
+.edit_menu_sub.icon.install {
+	background-image: url(001_42.png);
+}
+.edit_menu_sub.icon.upgrade {
+	background-image: url(001_24.png);
+}

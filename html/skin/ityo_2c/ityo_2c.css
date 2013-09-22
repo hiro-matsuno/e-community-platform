@@ -1,0 +1,271 @@
+﻿/*
+ * Copyright (c) 2009 National Research Institute for Earth Science and
+ * Disaster Prevention (NIED).
+ * This code is licensed under the GPL 3.0 license, availible at the root
+ * application directory.
+ */
+/* e-community platform default theme */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	word-break: break-all;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	color: #333333;
+	text-align: center;
+	font-size: 13px;
+	*font-size: small;
+	*font: x-small;
+	line-height: 1.5;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+	background:#fff url(ityo.gif) no-repeat center -40px fixed;
+
+}
+
+a {
+	color: #69532E;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: #69532E;
+}
+
+
+/* ヘッダ */
+
+
+#header {
+	height: 100px;
+}
+
+#header h1 {
+	font-size: 22px;
+	*font-size: 167%;
+	color: #9d7c43;
+	font-weight: bold;
+	width:100%;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:18px;
+}
+
+#header h1 a {
+	color: #9d7c43;
+	text-decoration: none;
+}
+
+#header h1 a:visited {
+	color: #9d7c43;
+}
+
+#header h2 {
+	font-size: 13px;
+	*font-size: 100%;
+	color: #333333;
+	width:100%;
+	font-weight:normal;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+	padding-left:2px
+}
+
+
+/* wrapper: footerを下寄せするための枠 */
+
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto ;
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* ぱんくずリスト */
+
+#nav {
+	color:#666;
+	display:block;
+	width:99%;
+	margn-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-left: auto;
+}
+
+#nav .nav_tp {
+	text-align:left;
+}
+
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	height: 15px;
+	color:#666;
+}
+
+#nav li {
+	width: 95%;
+	height: 15px;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+/* ブロック用コンテナ */
+
+#container {
+	position: relative;
+	clear: both;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	margin-top: 15px;
+}
+
+/* space_1: 中央ブロック */
+#space_1 {
+	width: 520px;
+	float:right;
+}
+
+#space_1 .box {
+	margin-left: auto;
+	margin-bottom: 15px;
+	border:solid 3px #d4d2d2;
+	background-color: #FFF;
+	padding: 5px;
+}
+
+#space_1 .box_menu {
+	border-bottom:solid 2px #e0e0e0;
+	line-height: 34px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#space_1 .box_menu span {
+	display: block;
+	color: #9D7C43;
+	font-size: 16px;
+	*font-size: 123%;
+	font-weight: bold;
+	padding-left: 0px;
+}
+
+#space_1 .box_main {
+	margin: 0;
+	padding: 15px 10px 10px;
+	font-size:93%;
+}
+
+/* space_2: 左ブロック */
+#space_2 {
+	width: 234px;
+	float:left;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+#space_2 .box {
+	margin-right: auto;
+	text-align: left;
+	margin-bottom: 15px;
+	background-color: #FFF;
+}
+
+#space_2 .box_menu {
+	color: #666;
+	line-height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom:solid 3px #d4d2d2;
+}
+#space_2 .box_menu span {
+	display: block;
+	font-size: 14px;
+
+
+
+	*font-size: 108%;
+	font-weight: bold;
+}
+
+#space_2 .box_main {
+	margin: 0;
+	padding: 5px 15px;
+	font-size:93%;
+}
+
+/* ぱんくず */
+
+.nav, .nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 98;
+	position: relative;
+}
+.nav li {
+	float: left;
+	margin: 0;
+	padding: 0;
+  position: relative;
+}
+.nav li a, .nav li a:link, .nav li a:active, .nav li a:visited {
+	background-image: url(../default/image/nav_bg.png);
+	background-repeat: repeat-x;
+	display: block;
+}
+
+/* フッタ */
+
+#container_foot {
+	clear: both;
+}
+
+#footer_push {
+	position: relative;
+	z-index: -999;
+	height: 81px;
+}
+
+#footer {
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+#footer .footer_content {
+	color: #69532E;
+	font-size: 10px;
+	*font-size: 84%;
+	line-height:26px;
+}
+
+#footer a, #footer a:visited {
+	text-decoration: underline;
+	color:#69532E;
+}

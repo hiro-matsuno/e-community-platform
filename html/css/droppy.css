@@ -1,0 +1,34 @@
+/**
+ * eコミプラットフォーム専用に書き換えた.
+ * @author ikeda
+ **/
+
+/* Basic code - don't modify */
+ 
+ .nav_droppy { display: block; margin: 0; padding: 0; position: relative; }
+  .nav_droppy li { display: block; list-style: none; margin: 0; padding: 0; float: left; position: relative; }
+  .nav_droppy a { display: block; }
+  .nav_droppy ul { display: none; position: absolute; right: 0; margin: 0; padding: 0; }
+  * html .nav_droppy ul { line-height: 0; } /* IE6 "fix" */
+  	.nav_droppy ul a { zoom: 1; } /* IE6/7 fix */
+    .nav_droppy ul li { float: none; }
+    .nav_droppy ul ul { top: 0; }
+    
+/* Essentials - configure this */
+
+.nav_droppy ul { width: 130px; }
+.nav_droppy ul ul { left: 131px; }
+
+/* Everything else is theming */
+ 
+.nav_droppy { height: 24px; }
+.nav_droppy *:hover { background-color: none; }
+.nav_droppy a { border-right: 1px solid white; color: black; font-size: 12px; padding: 6px; line-height: 1; }
+.nav_droppy a:visited { border-right: 1px solid silver; color: black; font-size: 12px; padding: 6px; line-height: 1; }
+  .nav_droppy li.hover a { background-color: whitesmoke; }
+  .nav_droppy ul { top: 25px; border: solid silver 1px;}
+    .nav_droppy ul li a { background-color: whitesmoke; }
+      .nav_droppy ul a.hover { background-color: deepskyblue; }
+   .nav_droppy ul a { border-bottom: 1px solid white; border-right: none; opacity: 0.9; filter: alpha(opacity=90); }
+/* .nav_droppy ul a { border-bottom: none; } - I also needed this for IE6/7 */
+

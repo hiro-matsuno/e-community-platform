@@ -1,0 +1,82 @@
+/* Copyright (c) 2009 National Research Institute for Earth Science and
+ * Disaster Prevention (NIED).
+ * This code is licensed under the GPL 3.0 license, availible at the root
+ * application directory.
+ */
+
+/* e-community platform stykesheet for 3column_free */
+
+/* space_wrapper: 中央&左ブロックの枠 */
+#space_wrapper {
+	width:100%;
+	float:left;
+	margin-right: -230px;
+}
+
+/* space_1: 中央ブロック */
+
+#space_1 {
+	min-height:100px;
+	height: auto !important;
+	height: 100px;
+	width: 100%;
+	margin-left: -230px;
+	float:right;
+}
+
+#space_1 div.box {
+	margin-right: 240px;
+	margin-left: 240px;
+}
+div.box_main {
+	width: 100%;
+}
+
+#space_4 div.box {
+	margin-right: 0px;
+	margin-left: 240px;
+}
+#space_5 div.box {
+	margin-left: 0px;
+	margin-right: 240px;
+}
+
+#space_2 {
+	min-height:100px;
+	height: auto !important;
+	height: 100px;
+	width: 230px;
+	float:right;
+	padding-left: 0px;
+}
+
+#space_3 {
+	min-height:100px;
+	height: auto !important;
+	height: 100px;
+	width: 230px;
+	float: right;
+	padding-right: 0px;
+}
+
+#subspace_wrap {
+	clear: both;
+}
+
+#space_4 {
+	min-height:100px;
+	height: auto !important;
+	height: 100px;
+	float: left;
+	background-color: transparent;
+	width: 49.5%;
+}
+
+#space_5 {
+	min-height:100px;
+	height: auto !important;
+	height: 100px;
+	float: right;
+	background-color: transparent;
+	width: 49.5%;
+}

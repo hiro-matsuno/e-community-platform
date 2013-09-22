@@ -1,0 +1,234 @@
+﻿/*
+ * Copyright (c) 2009 National Research Institute for Earth Science and
+ * Disaster Prevention (NIED).
+ * This code is licensed under the GPL 3.0 license, availible at the root
+ * application directory.
+ */
+/* e-community platform default theme */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	word-break: break-all;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	color: #333;
+	text-align: center;
+	background:#fff;
+	font-size: 13px;
+	*font-size: small;
+	*font: x-small;
+	line-height: 1.5;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+a {
+	color: #855942;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: #855942;
+}
+
+
+/* ヘッダ */
+
+
+#header {
+	height: 100px;
+	background-color: #c6d2ac;
+	border-bottom:solid 5px #97ac67;
+}
+
+#header h1 {
+	font-size: 16px;
+	*font-size: 123%;
+	color: #666666;
+	font-weight: bold;
+	width:95%;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:25px;
+	padding-left:5px;
+}
+
+#header h2 {
+	font-size: 13px;
+	*font-size: 100%;
+	color: #333333;
+	width:95%;
+	font-weight:normal;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+	padding-left:10px
+}
+
+
+/* wrapper: footerを下寄せするための枠 */
+
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -30px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* ぱんくずリスト */
+
+#nav {
+	color:#666;
+	display:block;
+	width:95%;
+	margn-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top: 10px;
+	margin-left: auto;
+}
+
+#nav .nav_tp {
+	text-align:right;
+}
+
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	height: 15px;
+	color:#666;
+}
+
+#nav li {
+	width: 95%;
+	height: 15px;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+/* ブロック用コンテナ */
+
+#container {
+	position: relative;
+	clear: both;
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+/* space_1: 中央ブロック */
+#space_1 {
+	width: 520px;
+	float:right;
+	margin-top:15px;
+}
+#space_1 .box {
+	margin-left: auto;
+	margin-bottom: 15px;
+	background-color: #FFF;
+}
+
+#space_1 .box_menu {
+	padding-left: 10px;
+	background-color: #FFF;
+	border-bottom:solid 2px #9aa64f;
+	line-height: 24px;
+	margin-bottom: 8px;
+}
+#space_1 .box_menu span {
+	display: block;
+	color: #657540;
+	font-size: 16px;
+	*font-size: 123%;
+	font-weight: bold;
+}
+
+#space_1 .box_main {
+	margin: 0;
+	padding: 3px 10px;
+}
+
+/* space_2: 左ブロック */
+#space_2 {
+	width: 250px;
+	margin-top:15px;
+	float:left;
+	text-align: center;
+}
+
+#space_2 .box {
+	margin-right: auto;
+	text-align: left;
+	width: 240px;
+	margin-bottom: 15px;
+	background-color: #FFF;
+}
+
+#space_2 .box_menu {
+	padding-left: 10px;
+	color: #666;
+	line-height: 24px;
+	background-color: #C6D2AC;
+	margin-bottom: 8px;
+}
+#space_2 .box_menu span {
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	*font-size: 108%;
+}
+
+#space_2 .box_main {
+	margin: 0;
+	padding: 5px 10px;
+	background-color: 9f9f9f;
+}
+
+/* フッタ */
+
+#container_foot {
+	clear: both;
+}
+
+#footer_push {
+	position: relative;
+	z-index: -999;
+	height: 60px;
+}
+
+#footer {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	background-color: #c6d2ac;
+	border-top:solid 1px #97ac67;
+}
+
+#footer .footer_content {
+	color: #586412;
+	font-size: 0.8em;
+	line-height:26px;
+}
+
+#footer a, #footer a:visited {
+	text-decoration: underline;
+	color:#586412;
+}

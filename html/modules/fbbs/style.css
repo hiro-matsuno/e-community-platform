@@ -1,0 +1,11 @@
+ul.mod_fbbs_tree_list {
+	margin: 0;
+	padding: 0;
+	background: #efefef;
+}
+ul.mod_fbbs_tree_list li {
+	list-style-type: none;
+	background: url(image/tree.gif) top left no-repeat;
+	padding-left: 15px;
+	margin-left: 0;
+}

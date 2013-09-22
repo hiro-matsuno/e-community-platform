@@ -1,0 +1,359 @@
+﻿/*
+ * Copyright (c) 2009 National Research Institute for Earth Science and
+ * Disaster Prevention (NIED).
+ * This code is licensed under the GPL 3.0 license, availible at the root
+ * application directory.
+ */
+/* e-community platform default theme */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	word-break: break-all;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	color: #333;
+	text-align: center;
+	font-size: 13px;
+	*font-size: small;
+	*font: x-small;
+	line-height: 1.5;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+	background:#f8f8fe url(photo_paprika_3c_3c/kabe.gif) repeat-y center;
+}
+
+
+a {
+	color: #960;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: #960;
+}
+
+
+/* ヘッダ */
+
+
+#header {
+	height: 180px;
+	text-align:left;
+}
+
+#header h1 {
+	font-size: 24px;
+
+
+
+	*font-size: 182%;
+	color: #666;
+	font-weight: bold;
+	width:300px;
+	padding-top:55px;
+	padding-left:25px;
+	text-align:left;
+	line-height:1;
+}
+
+#header h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header h1 a:visited {
+	color: #fff;
+}
+
+#header h2 {
+	font-size: 14px;
+
+	*font-size: 108%;
+	color: #fff;
+	width:700px;
+	font-weight:normal;
+	text-align:left;
+	margin-top:15px;
+	padding-left:25px;
+	line-height:1.4;
+}
+
+/* wrapper: footerを下寄せするための枠 */
+
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -30px;
+	width: 856px;
+	background:#fff url(photo_paprika_3c_3c/ban.jpg) no-repeat center top;
+	border:solid 1px #999;
+}
+
+
+/* ぱんくずリスト */
+
+#nav {
+	color:#fff;
+	display:block;
+	width:95%;
+	margn-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top: 10px;
+	margin-left: auto;
+}
+
+#nav .nav_tp {
+	text-align:left;
+}
+
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	height: 15px;
+	color:#666;
+}
+
+#nav li {
+	width: 95%;
+	height: 15px;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+#nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav a:visited {
+	color: #fff;
+}
+
+
+/* ブロック用コンテナ */
+
+#container {
+	position: relative;
+	z-index: 0;
+	clear: both;
+	width: 830px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:15px;
+	text-align: left;
+}
+
+/* space_wrapper: 中央&左ブロックの枠 */
+#space_wrapper {
+	width:625px;
+	float:left;
+}
+
+/* space_1: 中央ブロック */
+#space_1 {
+	width: 420px;
+	float:right;
+}
+
+#space_1 .box {
+	margin-bottom: 15px;
+	background-color:#FFF;
+}
+
+#space_1 .box_menu {
+	padding-left: 5px;
+	line-height: 28px;
+	border-bottom:solid 2px #630;
+	margin:0 5px;
+	padding-top:5px;
+}
+
+#space_1 .box_menu span {
+	display: block;
+	color: #333;
+	font-size: 14px;
+	*font-size: 108%;
+	font-weight: bold;
+}
+
+#space_1 .box_main {
+	padding:8px;
+	text-align: left;
+}
+
+/* space_2: 左ブロック */
+
+#space_2 {
+	width: 190px;
+	float:left;
+	padding-left: 0px;
+}
+
+#space_2 .box {
+	margin-bottom:15px;
+	background-color:#FFF;
+}
+
+#space_2 .box_menu {
+	padding-left: 10px;
+	line-height: 24px;
+	background-color: #493221;
+}
+
+#space_2 .box_menu span {
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	*font-size: 108%;
+	font-weight: bold;
+}
+
+#space_2 .box_main{
+
+}
+
+
+/* space_3: 右ブロック */
+
+#space_3 {
+	width: 190px;
+	float:right;
+	padding-left: 0px;
+}
+
+#space_3 .box {
+	margin-bottom:15px;
+	background-color:#FFF;
+}
+
+#space_3 .box_menu {
+	padding-left: 10px;
+	line-height: 24px;
+	background-color: #493221;
+}
+
+#space_3 .box_menu span {
+	display: block;
+	color: #fff;
+	font-size: 14px;
+
+	*font-size: 108%;
+	font-weight: bold;
+}
+
+#space_3 .box_main{
+
+}
+
+/* ブロック共通 */
+.box_main {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+.box div a {
+	;
+}
+.box div a:visited {
+	;
+}
+.box_menu span {
+	display: block;
+	color: #484848;
+	*font-size:113%;
+	font-weight: bold;
+}
+.box_main {
+	padding:5px;
+	*font-size:113%;
+}
+.box_edit {
+	font-size: 0.9em;
+}
+
+.nav, .nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 98;
+  position: relative;
+}
+.nav li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.nav li a, .nav li a:link, .nav li a:active, .nav li a:visited {
+	background-image: url(image/nav_bg.png);
+	background-repeat: repeat-x;
+	display: block;
+}
+
+.subnav li {
+	background-image: none;
+	background-color: #0d57a4;
+
+}
+.subnav li a:hover{
+	background-image: none;
+	background-color: #0d57a4;
+
+}
+.box_main ul li{
+	background:url(simple_green_3c/icon01.gif) no-repeat 2px 3px;
+	list-style-type:none;
+	padding-left:12px;
+}
+
+/* フッタ */
+
+#container_foot {
+	clear: both;
+}
+
+#footer_push {
+	position: relative;
+	z-index: -999;
+	height: 81px;
+}
+
+#footer {
+	clear: both;
+	width: 856px;
+	text-align: center;
+	background-color: #EEE3DB;
+	margin-left: auto;
+	margin-right: auto;
+	border-top:solid 1px #999;
+}
+
+#footer .footer_content {
+	color: #333;
+	font-size: 10px;
+	*font-size: 84%;
+	line-height:28px;
+}
+
+#footer a, #footer a:visited {
+	text-decoration: underline;
+	color:#333;
+}

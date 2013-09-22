@@ -1,0 +1,11 @@
+/* Copyright (c) 2009 National Research Institute for Earth Science and
+ * Disaster Prevention (NIED).
+ * This code is licensed under the GPL 3.0 license, availible at the root
+ * application directory.
+ */
+.memo_form_elem textarea, .memo_form_elem div {
+	padding: 4px;
+	border: 0;
+	background-color: lightyellow;
+	width: 95%;
+}

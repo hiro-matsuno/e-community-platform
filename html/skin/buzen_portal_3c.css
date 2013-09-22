@@ -1,0 +1,348 @@
+﻿/* 
+ * Copyright (c) 2009 National Research Institute for Earth Science and
+ * Disaster Prevention (NIED).
+ * This code is licensed under the GPL 3.0 license, availible at the root
+ * application directory.
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	word-break: break-all;
+}
+
+html, body, #wrapper {
+	height: 100%;
+}
+
+body > #wrapper {
+	height: auto;
+	min-height: 100%;
+}
+
+body {
+	color: #333;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+	font-size: 13px;
+	*font-size: small;
+	*font: x-small;
+	background:#fff url(buzen_portal_3c/kabe.gif) repeat-x ;
+}
+
+/* 背景たいさく。 */
+*:first-child+html body {
+	padding-left: 1px;
+}
+* html body {
+	padding-left: 1px;
+}
+body,x:-moz-broken {
+	margin-left: -1px;
+}
+
+a {
+	color: #669900;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: #669900;
+}
+
+
+/* ヘッダ */
+#header {
+	height: 130px;
+	width:916px;
+	margin:0 auto;
+	background:url(buzen_portal_3c/ban.gif) no-repeat center top;
+}
+
+#header h1 {
+	font-size: 22px;
+	*font-size: 167%;
+	color: #fff;
+	font-weight: bold;
+	padding-top:20px;
+	padding-left: 30px;
+	line-height:1;
+}
+
+#header h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header h1 a:visited {
+	color: #FFF;
+}
+
+#header h2 {
+	font-size: 13px;
+	*font-size: 100%;
+	color: #fff;
+	font-weight:normal;
+	margin-top:5px;
+	padding-left: 30px;
+	width: 450px;
+	line-height:1.4;
+}
+
+/* wrapper: footerを下寄せするための枠 */
+#wrapper {
+	margin: 0 auto;
+	width: 916px;
+	background:#FFF url(buzen_portal_3c/kabe_back.gif) repeat-y;
+}
+
+/* ぱんくずリスト */
+
+#nav {
+	color:#333;
+	display:block;
+	width: 870px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#nav .nav_tp {
+	text-align:right;
+	margin-top: 5px;
+}
+
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	height: 15px;
+	color:#333;
+}
+
+#nav li {
+	width: 95%;
+	height: 15px;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+
+/* ブロック用コンテナ */
+
+#container {
+	position: relative;
+	z-index: 0;
+	clear: both;
+	width: 870px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:5px;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+/* space_wrapper: 中央&左ブロックの枠 */
+#space_wrapper {
+	width:656px;
+	float:left;
+}
+
+/* space_1: 中央ブロック */
+#space_1 {
+	width: 441px;
+	float:right;
+}
+#space_1 .box {
+	margin-bottom: 15px;
+}
+#space_1 .box_main {
+	padding:5px;
+}
+
+/* space_2: 左ブロック */
+
+#space_2 {
+	width: 200px;
+	float:left;
+	padding-left: 0px;
+}
+
+#space_2 .box {
+	margin-bottom: 15px;
+	background-color:#FFF;
+}
+#space_2 .box_main{
+	padding: 5px;
+}
+
+
+/* space_3: 右ブロック */
+
+#space_3 {
+	width: 200px;
+	float: right;
+	padding-right: 0px;
+}
+
+#space_3 .box {
+	margin-bottom: 15px;
+	background-color:#FFF;
+}
+#space_3 .box_main{
+	padding: 5px;
+}
+
+/* ブロック共通 */
+.box_main {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+.box div a {
+	;
+}
+.box div a:visited {
+	;
+}
+.box_menu {
+	display: block;
+	font-weight: bold;
+	padding-left: 5px;
+	line-height: 22px;
+	background:#615045 url(buzen_portal_3c/title.gif) repeat-x;
+}
+.box_menu span {
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	*font-size: 108%;
+}
+
+.ox_main {
+	padding:5px;
+	font-size: 0,9em;
+}
+.box_edit {
+	font-size: 0.9em;
+}
+
+.nav, .nav ul { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 98;
+  position: relative;
+}
+.nav li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.nav li a, .nav li a:link, .nav li a:active, .nav li a:visited {
+	background-image: url(image/nav_bg.png);
+	background-repeat: repeat-x;
+	display: block;
+}
+
+.subnav li {
+	background-image: none;
+	background-color: #0d57a4;
+
+}
+.subnav li a:hover{
+	background-image: none;
+	background-color: #0d57a4;
+
+}
+
+/* フッタ */
+
+#footer {
+	clear: both;
+	position: relative;
+	padding: 0;
+	margin-top: -37px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 37px;
+	width: 916px;
+	text-align: center;
+	background:#55a207 url(buzen_portal_3c/footer.gif) repeat-x;
+}
+
+#footer .footer_content {
+	color: #fff;
+	font-size: 10px;
+	padding-top: 5px;
+}
+
+#footer a, #footer a:visited {
+	text-decoration: underline;
+	color:#fff;
+}
+
+/* clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+/* トップページ（ブロック状態）*/ 
+.mod_blog_block_content a {
+	text-decoration:underline;
+}
+
+.mod_blog_block_content{
+	border-bottom: 1px solid #999;
+	padding-bottom: 10px;
+}
+
+.mod_blog_block_title a {
+	font-size: 16px;
+	*font-size: 100%;
+	margin-bottom:10px;
+	margin-top:10px;
+	text-decoration:none;
+}
+.mod_blog_block_title {
+	font-size: 16px;
+	*font-size: 123%;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+/* 個別記事 */ 
+.mod_blog_main_title {
+	font-size: 16px;
+	*font-size: 123%;
+	margin-bottom:10px;
+	margin-top:10px;
+	color: #669900;
+} 
+.mod_blog_main_content a {
+	text-decoration:underline;
+}

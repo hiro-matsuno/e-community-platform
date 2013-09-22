@@ -1,0 +1,64 @@
+/* Copyright (c) 2009 National Research Institute for Earth Science and
+ * Disaster Prevention (NIED).
+ * This code is licensed under the GPL 3.0 license, availible at the root
+ * application directory.
+ */
+@CHARSET "UTF-8";
+
+/** eコミのデフォルトで読み込むスタイル */
+
+@import url( ../image/icons/icons.css );
+
+/* 各種設定ダイアログ */
+.setting_menu li {
+	padding-left: 8px;
+	list-style: none;
+}
+
+
+/* ブロックメッセージ */
+div.ecom_block_message {
+
+	font-size: 1.0em;
+	padding: 4px;
+	border: 1px solid green;
+	color: green;
+
+}
+
+/* ブロックエラーメッセージ */
+div.ecom_block_error_message {
+
+	font-size: 1.0em;
+	padding: 4px;
+	border: 1px solid red;
+	color: red;
+	background-color: mistyrose;
+
+}
+
+.ecom_block_pmt_icon {
+	margin-right: 4px;
+	width: 24px;
+	height: 24px;
+}
+
+.ecom_block_pmt_public {
+	background-image: url(../image/icons/ico_col_1.gif);
+}
+
+.ecom_block_pmt_group {
+	background-image: url(../image/icons/ico_col_2.gif);
+}
+
+.ecom_block_pmt_authorized {
+	background-image: url(../image/icons/ico_col_3.gif);
+}
+
+.ecom_block_pmt_private {
+	background-image: url(../image/icons/ico_col_4.gif);
+}
+
+.ecom_block_pmt_friend {
+	background-image: url(../image/icons/ico_col_5.gif);
+}

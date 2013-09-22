@@ -1,0 +1,112 @@
+/* Copyright (c) 2009 National Research Institute for Earth Science and
+ * Disaster Prevention (NIED).
+ * This code is licensed under the GPL 3.0 license, availible at the root
+ * application directory.
+ */
+@CHARSET "UTF-8";
+
+.filebox_thumbbox {
+	width: 93%;
+	padding: 4px;
+	margin: 6px;
+	font-size: 0.8em;
+	vertical-align: top;
+	text-align: center;
+	border: solid 1px silver;
+	overflow: hidden;
+}
+
+.filebox_thumbbox .filebox_title {
+	padding: 4px;
+	font-size: 1.3em;
+	text-align: left;
+	float: left;
+}
+
+.filebox_thumbbox .filebox_property {
+	width: 30%;
+	text-aligh: right;
+	padding: 4px;
+	float: right;
+}
+
+.filebox_thumbbox .filebox_thumbnail {
+	width: 50%;
+	height: 80px;
+	clear: both;
+	float: left;
+}
+
+.filebox_thumbbox .filebox_summary {
+	display: none;
+}
+
+.filebox_thumbbox .filebox_misc {
+	width: 40%;
+	margin-right: 4px;
+	margin-top: 24px;
+	width: 40%;
+	text-align: right;
+	float: right;
+}
+
+.filebox_listbox {
+	padding: 4px;
+	width: 95%;
+	border: none 1px silver;
+	border-style: none none dashed none;
+	overflow: hidden;
+}
+
+.filebox_listbox .filebox_title {
+	text-align: left;
+	float: left;
+}
+
+.filebox_listbox .filebox_owner {
+	text-align: right;
+	float: right;
+}
+
+.filebox_listbox .filebox_size {
+	display: none;
+}
+
+.filebox_listbox .filebox_date {
+	display: none;
+}
+
+
+.filebox_block_open_filebox {
+	
+	font-size: 0.9em;
+	margin: 4px;
+	border: solid 1px #cccccc;
+	background-color: #dfffdf;
+	padding: 4px;
+	cursor: pointer;
+	float: left;
+
+}
+
+.filebox_block_open_applet {
+
+	font-size: 0.9em;
+	margin: 4px;
+	border: solid 1px #cccccc;
+	background-color: #dfffdf;
+	padding: 4px;
+	cursor: pointer;
+	float: left;
+
+}
+
+.filebox_block_recent_header {
+
+	width: 90%;
+	margin: 8px;
+	border: solid 1px #cccccc;
+	background-color: #dfdfff;
+	padding: 4px;
+	
+}

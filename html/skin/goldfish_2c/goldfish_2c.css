@@ -1,0 +1,393 @@
+﻿/*
+ * Copyright (c) 2009 National Research Institute for Earth Science and
+ * Disaster Prevention (NIED).
+ * This code is licensed under the GPL 3.0 license, availible at the root
+ * application directory.
+ */
+/* e-community platform default theme */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	word-break: break-all;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	color: #333;
+	text-align: center;
+	font-size: 13px;
+	*font-size: small;
+	*font: x-small;
+	line-height: 1.5;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+	background-attachment: fixed;
+	background-color: #acddfd;
+	background-image: url(back.gif);
+	background-repeat: no-repeat;
+	background-position: center -100px;
+}
+
+a {
+	color: #960;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: #960;
+}
+
+
+/* ヘッダ */
+
+
+#header {
+	height: 220px;
+	text-align:left;
+	background:url(ban.gif) no-repeat center top;
+}
+
+#header h1 {
+	font-size: 22px;
+	*font-size: 167%;
+	color: #666;
+	font-weight: bold;
+	width:300px;
+	padding-top:55px;
+	padding-left:35px;
+	text-align:left;
+	line-height:1;
+}
+
+
+#header h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header h1 a:visited {
+	color: #fff;
+}
+
+#header h2 {
+	font-size: 13px;
+	*font-size: 100%;
+	color: #333;
+	width:300px;
+	font-weight:normal;
+	text-align:left;
+	margin-top:15px;
+	padding-left:35px;
+	line-height:1.4;
+}
+
+
+/* wrapper: footerを下寄せするための枠 */
+
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -30px;
+	width: 779px;
+	margin-left: auto;
+	margin-right: auto;
+	background:#fff url(wrapper_back.gif) repeat-y center top;
+}
+
+
+/* ぱんくずリスト */
+
+#nav {
+	color:#666;
+	display:block;
+	width:100%;
+	text-align:center;
+	padding-top: 10px;
+	background:#fff url(ban.gif) no-repeat center -220px;
+	padding-bottom: 10px;
+}
+
+#nav .nav_tp {
+	text-align:left;
+	padding-left:30px;
+}
+
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	height: 15px;
+	color:#fff;
+}
+
+#nav li {
+	width: 95%;
+	height: 15px;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+
+/* ブロック用コンテナ */
+
+#container {
+	position: relative;
+	clear: both;
+	width: 753px;
+	text-align: left;
+	margin-left:auto;
+	margin-right:auto;
+	overflow: hidden;
+	background:url(ban.gif) no-repeat center -260px;
+	padding-bottom: 15px;
+}
+
+#container:after {
+   content: "";
+   display: block;
+   clear: both;
+   height: 1px;
+   overflow: hidden;
+}
+
+
+/* space_1: 中央ブロック */
+#space_1 {
+	width: 490px;
+	float:right;
+	text-align: center;
+}
+#space_1 .box {
+	margin-left: auto;
+	margin-right: 15px;
+	text-align: left;
+	width: auto;
+	margin-bottom: 15px;
+}
+
+#space_1 .box_menu {
+	padding-left: 10px;
+	color: #666;
+	line-height: 30px;
+	background-color: #ecedee;
+	border: solid 1px #ccc;
+	background: #d1d1d1 url(main_title.gif) repeat-x top;
+}
+
+#space_1 .box_menu span {
+	display: block;
+	color: #4e4d4d;
+	font-size: 14px;
+
+	*font-size: 108%;
+	font-weight: bold;
+}
+
+#space_1 .box_main {
+	margin: 0;
+	padding: 10px 10px;
+}
+
+/* space_2: 左ブロック */
+#space_2 {
+	width: 230px;
+	margin-left:10px;
+	float:left;
+	text-align: center;
+	border: solid 1px #ccc;
+	background-color:#FFF;
+}
+
+#space_2 .box {
+	margin-right: auto;
+	text-align: left;
+	width:210px;
+	margin-bottom: 15px;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#space_2 .box_menu {
+	padding-left: 10px;
+	line-height: 30px;
+	background:url(side_title.gif) repeat-x bottom;
+
+}
+#space_2 .box_menu span {
+	display: block;
+	font-size: 14px;
+	*font-size: 108%;
+	font-weight: bold;
+	color: #4e4d4d;
+}
+
+#space_2 .box_main {
+	margin: 0;
+	padding: 5px 5px;
+}
+
+/* ブロック共通 */
+.box_main {
+	margin: 0;
+	padding: 0;
+}
+
+.box div a {
+	;
+}
+.box div a:visited {
+	;
+}
+
+.box_edit {
+	font-size: 0.9em;
+}
+
+.nav, .nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 98;
+  position: relative;
+}
+.nav li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.nav li a, .nav li a:link, .nav li a:active, .nav li a:visited {
+	background-image: url(../default/image/nav_bg.png);
+	background-repeat: repeat-x;
+	display: block;
+}
+
+.subnav li {
+	background-image: none;
+	background-color: #0d57a4;
+
+}
+.subnav li a:hover{
+	background-image: none;
+	background-color: #0d57a4;
+
+}
+
+#nav_admin {
+	clear: both;
+	width: 100%;
+	background-color: #E1E9FF;
+	padding: 3px;
+	text-align: right;
+	height: 26px;
+	margin-bottom: 6px;
+	margin-right: 0px;
+	padding-right: 0px;
+}
+#nav_admin a {
+	display: block;
+	padding: 4px 0 0 20px;
+	margin-right: 5px;
+	margin-left: auto;
+	background-image: url(../default/image/add_block.png);
+	background-repeat: no-repeat;;
+	background-position: 6px 6px;
+	background-color: #FDFFD2;
+	border: solid 1px #cccccc;
+	width: 120px;
+	height: 20px;
+	color: #000000;
+	font-size: 0.8em;
+	text-align: left;
+	float: right;
+}
+
+
+/* フッタ */
+
+#container_foot {
+	clear: both;
+}
+
+#footer_push {
+	position: relative;
+	z-index: -999;
+	height: 30px;
+}
+
+#footer {
+	clear: both;
+	width: 779px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(footer.gif);
+	line-height:73px;
+	padding-bottom:30px;
+	margin-top:10px;
+	position: relative;
+}
+
+#footer .footer_content {
+	color: #333;
+	font-size: 10px;
+
+
+	*font-size: 84%;
+	margin-top:10px;
+	line-height:30px;
+	clear: both;
+}
+
+#footer a, #footer a:visited {
+	text-decoration: underline;
+	color:#333;
+}
+/* トップページ（ブロック状態）*/
+.mod_blog_block_title {
+	font-size: 16px;
+	*font-size: 123%;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.mod_blog_block_title a {
+	font-size: 16px;
+	*font-size: 123%;
+	margin-bottom:10px;
+	margin-top:10px;
+	text-decoration:none;
+}
+.mod_blog_block_content {
+	border-bottom: #ccc solid 1px;
+	padding-bottom: 10px;
+}
+
+/* 個別記事 */
+.mod_blog_main_title {
+	font-size: 16px;
+	*font-size: 123%;
+	color: #754f00;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.mod_blog_main_content  {
+	border-bottom: #ccc solid 1px;
+	padding-bottom: 10px;
+}
+
+
+
